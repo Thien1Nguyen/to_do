@@ -13,7 +13,7 @@ const TodoDisplay = (props) => {
         }
 
     return (
-        <div className="p-3 bg-white">
+        <div className="p-3 bg-white clear">
             <h1 className="mb-5 text-primary border-bottom border-1 border-dark">To Do List</h1>
             {
                 props.todoList.map((task, i) => {
@@ -27,7 +27,7 @@ const TodoDisplay = (props) => {
                             />
 
                             <span 
-                            className=" me-3"
+                            className="me-3"
                             style={task.isComplete ? {color: "grey",textDecorationLine:"line-through" } : {color: randomColorGen()}}
                             >{task.task}</span>
 
