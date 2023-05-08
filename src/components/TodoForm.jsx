@@ -15,7 +15,7 @@ const TodoForm = (props) => {
 
     return (
         <form className='bg-dark text-white h-25 p-5 clear' onSubmit={handleSubmit}>
-            <h1>Carpe Diemo My Dude</h1>
+            <h1>Carpe Diem My Dude</h1>
             <textarea
                 className='mt-3'
                 rows="4"
