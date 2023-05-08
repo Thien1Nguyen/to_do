@@ -8,7 +8,7 @@ const TodoDisplay = (props) => {
             props.onDelete(e, i)
         }
         const randomColorGen = () =>{
-            const colorList = ['red','navy','teal', 'ForestGreen','tomato','DeepPink','SeaGreen','MediumPurple', 'Indigo','SpringGreen','PaleGreen','Gold']
+            const colorList = ['red','navy','teal', 'ForestGreen','DeepPink','SeaGreen','MediumPurple', 'Indigo','SpringGreen', "plum", "cornflowerblue"]
             return colorList[Math.round(Math.random() * (colorList.length - 1))]
         }
 
